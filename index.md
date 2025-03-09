@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: Christopher Duane's CS-499 Capstone Site
 ---
 
