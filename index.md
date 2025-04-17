@@ -6,7 +6,7 @@ title: Christopher Duane's CS-499 Capstone Site
 blah blah insert self assessment here
 
 ## Code Review
-Embed YouTube video here!
+<iframe width="600" height="600" src="https://youtu.be/Gdv9MdSamLo"></iframe>
 
 ## Enhancement One - Software Design and Engineering
 Software design and engineering narrative
