@@ -1,3 +1,5 @@
 remote_theme: pages-themes/architect@v0.2.0
+title: Christopher Duane's CS-499 ePortfolio
+description: SNHU CS-499 Capstone Project
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
