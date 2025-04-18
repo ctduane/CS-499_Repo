@@ -6,7 +6,10 @@ title: Christopher Duane's CS-499 Capstone Site
 blah blah insert self assessment here
 
 ## Code Review
-<iframe width="400" height="300" src="https://youtube.com/embed/Gdv9MdSamLo" allowFullscreen></iframe>
+
+<div align="center">
+	<iframe width="400" height="300" src="https://youtube.com/embed/Gdv9MdSamLo" allowFullscreen></iframe>
+</div>
 
 ## Enhancement One - Software Design and Engineering
 <p style="text-indent:3em;">
@@ -29,6 +32,7 @@ I ran into quite a few problems while working on this enhancement. I initially a
 <p style="text-indent:3em;"> 
 Aside from that, most of my issues revolved around unfamiliarity with Android development, re-familiarizing myself with Android Studio, and attempting to implement features that I had never used before. This included things like the table only updating after the application had been reloaded, because I was not calling the method with the correct parameters to update it immediately, forgetting simple things like dismissing the dialog after pressing the confirm button, app crashes caused by the fact I had created view elements that I forgot to set to their respective .xml counterparts, and proceeded to call methods on null objects, and more fun stuff. My main goal with this iteration of the project was to get the core functionality of the original program implemented, and in future iterations I want to implement an efficient search algorithm that updates the table, a username/password database, as well as the ability to individually edit cell values in the table.
 </p>
+
 ## Enhancement Two - Data Structures and Algorithms
 <p style="text-indent:3em;">
 The artifact I am submitting in this module is again the rescue animal database project from IT-145: Foundation in Application Development, as I chose to enhance this artifact in all three categories. This artifact was created as one of my first projects in the computer science program some time around 2021. The core functionality was a very basic rescue animal management system that provided a text-based interface for users to manage the animals the system.
@@ -51,6 +55,7 @@ The artifact I am submitting in this module is again the rescue animal database 
 <p style="text-indent:3em;">
 	I mentioned this in the previous enhancement, but I am still relatively new to Android development. I’m still trying to find my footing and get familiar with the environment, and it’s definitely frustrating at times. However, I do feel like I’m slowly becoming more accustomed to the Android development process and I simply need to put more time into fleshing these things out.
 </p>
+
 ## Enhancement Three - Databases
 <p style="text-indent:3em;">
 In this milestone I continued improving upon the rescue animal database project that I created back in IT-145: Foundation in Application Development, this time in the databases category. The project was a Java-based text interface that the user could navigate through a simple menu, including options to manage and view the rescue animals in the system.
