@@ -54,7 +54,7 @@ I believe I met the outcomes I planned for this enhancement back in module one �
 
 ## Enhancement Three - Databases
 <p style="text-indent:3em;">
-The final enhancement was in the databases category – enhancement was touched upon a bit in the previous submissions, as I needed the database to function in order to implement some of the system design and data structures/algorithms functionality. However, I did continue to improve upon it in the database category.
+The final enhancement was in the databases category – this enhancement was touched upon a bit in the previous submissions, as I needed the database to function in order to implement some of the system design and data structures/algorithms functionality. However, I did continue to improve upon it in the database category.
 </p>
 <p style="text-indent:3em;">
 I had already implemented the “C” in CRUD (Create) for the database in a previous module, so this time I included a few new features for the Android application, related to the “RUD” (Read, Update, Delete). In order to delete items, I added a checkbox at the beginning of each row that allows the user to select multiple entries in the table. This works in conjunction with the new menu bar at the top, which has an option to delete all of the checked rows. The user can check as many rows as they want, then tap the menu option to delete them, and they will subsequently be removed both from the interface and the database.
