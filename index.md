@@ -54,20 +54,15 @@ I believe I met the outcomes I planned for this enhancement back in module one �
 
 ## Enhancement Three - Databases
 <p style="text-indent:3em;">
-In this milestone I continued improving upon the rescue animal database project that I created back in IT-145: Foundation in Application Development, this time in the databases category. The project was a Java-based text interface that the user could navigate through a simple menu, including options to manage and view the rescue animals in the system.
+The final enhancement was in the databases category – enhancement was touched upon a bit in the previous submissions, as I needed the database to function in order to implement some of the system design and data structures/algorithms functionality. However, I did continue to improve upon it in the database category.
 </p>
 <p style="text-indent:3em;">
-	This artifact included basically every component that I felt was necessary to show improvement in all three of the enhancement categories, and I thought it would be fitting for what is essentially my final project to be one of the first things I created. This enhancement was touched upon a bit in the previous submissions, as I needed the database to function in order to implement some of the system design and data structures/algorithms functionality. However, I did continue to improve upon it in the database category.
+I had already implemented the “C” in CRUD (Create) for the database in a previous module, so this time I included a few new features for the Android application, related to the “RUD” (Read, Update, Delete). In order to delete items, I added a checkbox at the beginning of each row that allows the user to select multiple entries in the table. This works in conjunction with the new menu bar at the top, which has an option to delete all of the checked rows. The user can check as many rows as they want, then tap the menu option to delete them, and they will subsequently be removed both from the interface and the database.
 </p>
 <p style="text-indent:3em;">
-	I had already implemented the “C” in CRUD (Create) for the database in a previous module, so this time I included a few new features for the Android application, related to the “RUD” (Read, Update, Delete). In order to delete items, I added a checkbox at the beginning of each row that allows the user to select multiple entries in the table. This works in conjunction with the new menu bar at the top, which has an option to delete all of the checked rows. The user can check as many rows as they want, then tap the menu option to delete them, and they will subsequently be removed both from the interface and the database.
+For reading and updating, I added a feature to long press on any cell in a row. When a cell is long pressed, a dialog will pop up with all of the information contained in that row, which can be used to either read the information or to update the information for the row. 
 </p>
 <p style="text-indent:3em;">
-	For reading and updating, I added a feature to long press on any cell in a row. When a cell is long pressed, a dialog will pop up with all of the information contained in that row, which can be used to either read the information or to update the information for the row. 
+I ran into many issues during my work on this enhancement, including (but not limited to): Deleting items from the list of rows while iterating through them leading to an index out of bounds error, general confusion regarding how to transfer information between the TableViewListener, the MainActivity, the EditAnimalDialogFragment, and then back to the MainActivity, forgetting to refresh the table when deleting an item so it appears to still be there, forgetting to initialize an interface so attempting to view an item’s details led to a null pointer exception, and more.
 </p>
-<p style="text-indent:3em;">
-	So far I think that I have met the outcomes I mentioned in Module One, as I mentioned that I wanted to meet outcome 3 with the database enhancement, as well as outcome 4 by implementing solutions for the database modification. 
-</p>
-<p style="text-indent:3em;">
-	I ran into many issues during my work on this enhancement, including (but not limited to): Deleting items from the list of rows while iterating through them leading to an index out of bounds error, general confusion regarding how to transfer information between the TableViewListener, the MainActivity, the EditAnimalDialogFragment, and then back to the MainActivity, forgetting to refresh the table when deleting an item so it appears to still be there, forgetting to initialize an interface so attempting to view an item’s details led to a null pointer exception, and more.
-</p>
+
