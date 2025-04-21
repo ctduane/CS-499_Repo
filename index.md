@@ -68,13 +68,9 @@ I believe I have met the outcomes I planned in module one, as this enhancement w
 <p style="text-indent:3em;">
 For the data structures and algorithms enhancement of the rescue animal management system, I implemented sorting for the columns in the table, a search function, as well as expanded upon the user database by creating login and register pages that use hashing algorithms to store passwords safely.
 </p>
- <div class="row" align="center">
-  <div class="column">
-    <img src="https://i.imgur.com/JyhFoVO.gif" max-width="70%" max-height="auto">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/A9zxX7r.gif" max-width="70%" max-height="auto">
-  </div>
+<div class="row" align="center">
+	<img src="https://i.imgur.com/JyhFoVO.gif">
+	<img src="https://i.imgur.com/A9zxX7r.gif">
 </div> 
 <p style="text-indent:3em;">
 Tapping on a column name at the top of the table sorts the table based off ascending/descending order. The search bar at the top searches for anything in the table matching the keyword, meaning you don’t have to specify the type of value you’re looking for. Honestly, this is something that could be expanded upon further by including specific column searches instead of the entire table, but that was beyond the scope of my planned improvements. I utilized the BCrypt library from the Spring framework for the password hashing – it hashes the user’s password with a salt and stores that instead of the plaintext password. That way, if someone gets access to the passwords in the user database, they still wouldn’t be able to login.
