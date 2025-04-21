@@ -12,15 +12,21 @@ I had taken some courses in Python and Java at Bridgewater State University befo
 <p style="text-indent:3em">
 However, as I continued through the program, I found myself having less fun with programming and found it harder to stay motivated in my classes. I thought that I was just burnt out and needed to take a break, but as I continued through the program, I realized that I just didn’t find programming as interesting as it was back in high school. Many of my classmates, peers, and even my brother seemed incredibly interested in learning more about the inner workings of the field, but I just didn’t have the same drive. 
 </p>
+<p style="text-indent:3em">
 I don’t blame this program for that, nor do I have anything against the field itself – instead, I think it taught me that my enjoyment of that introductory computer science class in high school was because of the problem-solving, and not the programming itself. Thus, I have decided that I want to pivot my career path, likely towards something like IT, databases, or system administration, as opposed to being directly involved in development. That’s not to say that this program didn’t teach me a lot of valuable skills, though. Even if I don’t want to be involved in software development directly, there are still many jobs in tech that the skills I learned in this program apply to. 
+</p>
 <p style="text-indent:3em">
 Many non-programming classes contained aspects like gathering client requirements, communicating with the development team, creating schedules regarding the projected date of deliverables, managing time, budget, scope, and more. These skills apply to practically any kind of project management or development team and have helped me understand the significance of iterative development and consistent communication with stakeholders. 
 </p>
+<p style="text-indent:3em">
 The programming-centric classes still taught me a lot of important lessons like developing your software with security as a priority, not an afterthought. I learned about hashing algorithms, storing passwords as a hash instead of plaintext, malicious attacks like SQL injection, and even simple things like using a dependency check program to maintain updated dependencies that have security flaws.
+</p>
 <p style="text-indent:3em">
 I took a class on data structures and algorithms, comparing the differences between binary search trees, hash tables, linked lists, vectors, and arrays. I taught me the significance of utilizing the correct data structure for the purposes of your programs, and how seemingly small optimizations scale incredibly well for large quantities of data. 
 </p>
+<p style="text-indent:3em">
 I had quite a bit of fun in the introductory databases class, where we learned the basics of SQL (specifically using MySQL) to create, edit, and delete records in a fake company’s database. We had to analyze their database and write a report regarding their target demographics, which warehouses had certain parts returned more, which products sold the most in which states, etc. I have considered looking into database work, potentially writing business reports for companies who maintain large databases and want insight into their sales figures.
+</p>
 <p style="text-indent:3em">
 To show what I’ve learned in this program, I thought it would be fun to remake that first project from IT-145, the rescue animal management system. It seemed like a proper sendoff to come full circle and apply all of what I’ve learned to the first big project I remembered enjoying, in a language that I initially disliked. 
 </p>
