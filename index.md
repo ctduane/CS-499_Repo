@@ -53,7 +53,9 @@ The improvements I made in the software design and engineering category essentia
 <p style="text-indent:3em">
 I restructured the rescue animal management system into a basic android Application that displays all of the animals’ information using a dynamically updating table. A floating action button (FAB) is displayed in the bottom-right corner of the interface, which opens up a dialog when pressed. This dialog is a form to add a new rescue animal to the database, acquiring all the animal’s attributes through a series of edit texts, radio buttons, a date picker, and country picker. The dialog ensures that all the required attributes have been entered before attempting to add the animal to the database, and provides warnings to the user indicating when they have left a field empty. Once the information has been entered and is valid, the user can confirm the entry through a button at the bottom, which will update the database and the table, displaying the new animal immediately.
 </p>
-<img src="https://i.imgur.com/MFkONPZ.gif">
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://i.imgur.com/MFkONPZ.gif" style="max-width: 45%; height: auto;">
+</div>
 <p style="text-indent:3em">
 I ran into quite a few problems while working on this enhancement. I initially attempted to implement the table through the use of multiple recycler views, following some examples online and through the Android Studio Gemini assistant plugin. This turned out to be much more complex than necessary and only caused me problems (I couldn’t get even a single entry in the database to display properly), so I restructured the project around a plugin I found called TableView on GitHub. This proved to be a much more modular and straightforward foundation for the application, although I ran into some issues that were not addressed in their documentation. Thankfully, the GitHub repo itself had an issues post where someone had the exact some problem that I was having which is not mentioned in the documentation’s setup instructions. I was able to fix my issue by simply setting a parameter in the TableView’s .xml file. 
 </p>
@@ -71,8 +73,8 @@ For the data structures and algorithms enhancement of the rescue animal manageme
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://i.imgur.com/JyhFoVO.gif" style="max-width: 45%; height: auto;">
   <img src="https://i.imgur.com/A9zxX7r.gif" style="max-width: 45%; height: auto;">
+  <img src="https://i.imgur.com/RvFmVTh.gif" style="max-width: 45%; height: auto;">
 </div>
-
 <p style="text-indent:3em;">
 Tapping on a column name at the top of the table sorts the table based off ascending/descending order. The search bar at the top searches for anything in the table matching the keyword, meaning you don’t have to specify the type of value you’re looking for. Honestly, this is something that could be expanded upon further by including specific column searches instead of the entire table, but that was beyond the scope of my planned improvements. I utilized the BCrypt library from the Spring framework for the password hashing – it hashes the user’s password with a salt and stores that instead of the plaintext password. That way, if someone gets access to the passwords in the user database, they still wouldn’t be able to login.
 </p>
@@ -97,6 +99,9 @@ I had already implemented the “C” in CRUD (Create) for the database in a pre
 <p style="text-indent:3em;">
 For reading and updating, I added a feature to long press on any cell in a row. When a cell is long pressed, a dialog will pop up with all of the information contained in that row, which can be used to either read the information or to update the information for the row. 
 </p>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://i.imgur.com/AZAWfhC.gif" style="max-width: 45%; height: auto;">
+</div>
 <p style="text-indent:3em;">
 I ran into many issues during my work on this enhancement, including (but not limited to): Deleting items from the list of rows while iterating through them leading to an index out of bounds error, general confusion regarding how to transfer information between the TableViewListener, the MainActivity, the EditAnimalDialogFragment, and then back to the MainActivity, forgetting to refresh the table when deleting an item so it appears to still be there, forgetting to initialize an interface so attempting to view an item’s details led to a null pointer exception, and more.
 </p>
