@@ -111,3 +111,21 @@ For reading and updating, I added a feature to long press on any cell in a row. 
 I ran into many issues during my work on this enhancement, including (but not limited to): Deleting items from the list of rows while iterating through them leading to an index out of bounds error, general confusion regarding how to transfer information between the TableViewListener, the MainActivity, the EditAnimalDialogFragment, and then back to the MainActivity, forgetting to refresh the table when deleting an item so it appears to still be there, forgetting to initialize an interface so attempting to view an item’s details led to a null pointer exception, and more.
 </p>
 
+## Course Outcomes
+<p style="text-indent:3em;">
+I figured I would close out my ePortfolio by describing why I think my enhancements adhere to this course's outcomes:
+</p>
+
+1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+   1. I believe this was demonstrated through my code review and my usage of contextual comments that allow other developers to read through my code and understand its purpose.
+2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+   1. This was demonstrated in my code review, going over the existing functionality of my code and explaining the enhancements that I desired to make
+4. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices
+   1. Demonstrated by the Android app's functionality related to sorting, searching, and querying.
+6. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
+   1. This was demonstrated as I followed industry-standard designs for my app development process and utilized an interative development approach for each enhancement. Each portion of the code was tested individually, and then tested again once integrated with the rest of the system. 
+8. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+   1. I think that this was demonstrated by my use of securely updated libraries and hashing algorithm for user passwords. Passwords were stored as a hash so that even if the database is accessed, malicious parties cannot get the original.
+   
+
+
