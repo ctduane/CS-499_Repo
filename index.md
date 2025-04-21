@@ -73,11 +73,13 @@ For the data structures and algorithms enhancement of the rescue animal manageme
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://i.imgur.com/JyhFoVO.gif" style="max-width: 45%; height: auto;">
   <img src="https://i.imgur.com/A9zxX7r.gif" style="max-width: 45%; height: auto;">
-  <img src="https://i.imgur.com/RvFmVTh.gif" style="max-width: 45%; height: auto;">
 </div>
 <p style="text-indent:3em;">
 Tapping on a column name at the top of the table sorts the table based off ascending/descending order. The search bar at the top searches for anything in the table matching the keyword, meaning you don’t have to specify the type of value you’re looking for. Honestly, this is something that could be expanded upon further by including specific column searches instead of the entire table, but that was beyond the scope of my planned improvements. I utilized the BCrypt library from the Spring framework for the password hashing – it hashes the user’s password with a salt and stores that instead of the plaintext password. That way, if someone gets access to the passwords in the user database, they still wouldn’t be able to login.
 </p>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://i.imgur.com/RvFmVTh.gif" style="max-width: 45%; height: auto;">
+</div>
 <p style="text-indent:3em;">
 This enhancement was a bit difficult at times, but the TableView library I am utilizing has a wide range of functionality that perfectly fit my desired enhancements. I mainly followed the TableView and BCrypt documentation and used my past Android app project as a reference to implement the enhancements. I had a few problems related to the searching functionality, as any searched value would result in the table being blank. The problem ended up being that my data model for the cells in the table was incorrectly returning the filterable keyword, and I needed to return the data in the cell as a string.
 </p>
@@ -96,6 +98,9 @@ The final enhancement was in the databases category – this enhancement was tou
 <p style="text-indent:3em;">
 I had already implemented the “C” in CRUD (Create) for the database in a previous module, so this time I included a few new features for the Android application, related to the “RUD” (Read, Update, Delete). In order to delete items, I added a checkbox at the beginning of each row that allows the user to select multiple entries in the table. This works in conjunction with the new menu bar at the top, which has an option to delete all of the checked rows. The user can check as many rows as they want, then tap the menu option to delete them, and they will subsequently be removed both from the interface and the database.
 </p>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://i.imgur.com/OE4VJWo.gif" style="max-width: 45%; height: auto;">
+</div>
 <p style="text-indent:3em;">
 For reading and updating, I added a feature to long press on any cell in a row. When a cell is long pressed, a dialog will pop up with all of the information contained in that row, which can be used to either read the information or to update the information for the row. 
 </p>
