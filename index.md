@@ -68,12 +68,12 @@ I believe I have met the outcomes I planned in module one, as this enhancement w
 <p style="text-indent:3em;">
 For the data structures and algorithms enhancement of the rescue animal management system, I implemented sorting for the columns in the table, a search function, as well as expanded upon the user database by creating login and register pages that use hashing algorithms to store passwords safely.
 </p>
- <div class="row">
+ <div class="row" align="center">
   <div class="column">
-    <img src="https://i.imgur.com/JyhFoVO.gif">
+    <img src="https://i.imgur.com/JyhFoVO.gif" max-width="70%" max-height="auto">
   </div>
   <div class="column">
-    <img src="https://i.imgur.com/A9zxX7r.gif">
+    <img src="https://i.imgur.com/A9zxX7r.gif" max-width="70%" max-height="auto">
   </div>
 </div> 
 <p style="text-indent:3em;">
